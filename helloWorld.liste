@@ -1,0 +1,14 @@
+>Hello World&
+
+print(hello world)
+
+
+$my function():
+    $i:0#*i*:<:10:
+        >*i*&
+    !done&
+
+def my_function():
+    for i in range(10):
+        print(i)
+    return done

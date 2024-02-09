@@ -1,0 +1,57 @@
+============= defining variables ==============
+--------------- string/int --------------------
+$hw:hello world&
+
+----------------- function --------------------
+$fc(ins):>*hw*$&+*AB*:*CD*:EF&>*in*&! done&
+
+------------------- list ----------------------
+$ls:1,2,A,B,72,d&
+
+========= using functions and lists ===========
+-------------- calling a function -------------
+*fc(*hw*)*&
+
+------------- grabbing a list item ------------
+>*ls[0]*&
+
+---------- setting vars to functions ----------
+$test:*fc(*hw*)*&
+
+------------- multiple inputs -----------------
+$fc2(a)(b)(c):! x&
+================== symbols ====================
+----------------- load module -----------------
+%file&
+
+----------------- add note --------------------
+~ Example note ~
+
+----------------- set var ---------------------
+$var:value&
+
+------------------- read input ----------------
+<var&
+
+---------------- end statement ----------------
+statement&
+
+------------------ use var --------------------
+*var*&
+
+------------------ add numbers ----------------
++num1:num2:result&
+
+----------------- write output ----------------
+>var&
+
+----------------- while loop ------------------
+#*i*:<:10:>*i*&+*i*:1:i&!&
+
+----------------- return ----------------------
+container:!return value&
+
+----------------- escape ----------------------
+$var:\*\&&
+========== pre-defined functions =============-
+Nothing here yet
